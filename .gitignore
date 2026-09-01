@@ -1,0 +1,6 @@
+paper.jar
+logs/
+cache/
+libraries/
+*.json
+playit.exe
