@@ -16,7 +16,7 @@ PLAYIT_PATH="$HOME/playit"
 PLAYIT_SECRET="dac7bd3a003c58358bc746a0fc0b950fb11e35de3944a43f07c030c96029806a"
 
 # Your Paper JAR download
-PAPER_URL="YOUR_PAPER_DOWNLOAD_URL_HERE"
+PAPER_URL="https://github.com/samirkoryuu/mc-world-backup/releases/download/JAR/paper.jar"
 
 echo "=========================================="
 echo "     KORYUU MINECRAFT SERVER STARTUP     "
