@@ -6,7 +6,7 @@ pkg install -y openjdk-21 git curl wget
 
 termux-setup-storage || true
 
-mkdir -p "$HOME/minecraft" 
+git clone "https://github.com/samirkoryuu/mc-world-backup.git" ~/minecraft
 
 pkg install proot-distro -y
 
