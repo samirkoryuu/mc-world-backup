@@ -10,6 +10,8 @@ git clone "https://github.com/samirkoryuu/mc-world-backup.git" ~/minecraft
 
 pkg install proot-distro -y
 
+wget -O ~/minecraft/paper.jar "https://github.com/samirkoryuu/mc-world-backup/releases/download/JAR/paper.jar"
+
 proot-distro install ubuntu
 
 proot-distro login ubuntu
