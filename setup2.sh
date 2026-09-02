@@ -12,6 +12,6 @@ echo "deb [signed-by=/etc/apt/trusted.gpg.d/playit.gpg] https://playit-cloud.git
 
 apt update
 
-apt install -y playit
+DEBIAN_FRONTEND=noninteractive apt-get install -y playit
 
 exit
