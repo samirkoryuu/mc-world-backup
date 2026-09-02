@@ -6,6 +6,10 @@ pkg install -y openjdk-21 git curl wget
 
 termux-setup-storage || true
 
-mkdir -p "$HOME/minecraft" && mkdir -p "$PREFIX/tmp"
+mkdir -p "$HOME/minecraft" 
 
-wget -O ~/playit https://github.com/playit-cloud/playit-agent/releases/latest/download/playit-linux-aarch64 && chmod +x ~/playit
+pkg install proot-distro -y
+
+proot-distro install ubuntu
+
+proot-distro login ubuntu
