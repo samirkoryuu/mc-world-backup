@@ -1,5 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
+proot-distro login ubuntu
+
 apt update
 
 apt install -y curl gnupg
